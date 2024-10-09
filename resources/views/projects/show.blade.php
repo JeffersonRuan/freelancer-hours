@@ -1,5 +1,7 @@
-<div>
-    <pre>
-        @dd(request()->route('project'))
-    </pre>
-</div>
+<x-layouts.app>
+    
+    <livewire:projects.show :$project/>
+
+    <livewire:projects.proposals :$project/>
+
+</x-layouts.app>
